@@ -1,0 +1,62 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    top: 0px;
+    /* justify-content: center; */
+}
+
+#logo img {
+    height: 70px;
+    width: 40px;
+    margin-left: 0;
+    margin-top: 6px;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+}
+
+#home p {
+    color: white;
+    font-size: .8rem;
+}
+
+.services_contner {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+#services .box {
+    margin: 20px;
+}
+
+#services .box img {
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+#client-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputclass input {
+    width: 80%;
+}
+
+.contect-section textarea {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#home::before {
+    height: 550px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
